@@ -1,0 +1,130 @@
+/*
+ * ────────────────────────────────────────────────────────────────────────── I ──────────
+ *   :::::: E S T I L O S   G E N E R A L E S : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────────────────
+ */
+
+body {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.position-relative {
+  overflow: hidden !important;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+/*Int-tel-input */
+.iti__flag {
+  background-image: url("/assets/intl-tel-input/img/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {
+    background-image: url("/assets/intl-tel-input/img/flags@2x.png");
+  }
+}
+
+/* BOOSTRAP CS*/
+.text-primary {
+  color: rgb(8, 172, 228) !important;
+}
+/* * ──────────────────────────────────────────────────────── Estilos Generales ─────
+ */
+
+/*
+  * ──────────────────────────────────────────────────── II ──────────
+  *   :::::: H E A D E R : :  :   :    :     :        :          :
+  * ──────────────────────────────────────────────────────────────
+  */
+
+.bg-img {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title-1 {
+  font-weight: 900;
+}
+
+/* * ──────────────────────────────────────────────────────────────── Header II ───── */
+
+/*
+ * ────────────────────────────────────────────────────────────────── III ──────────
+ *   :::::: Q U I E N E S   S O M O S : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────────
+ */
+
+.bar {
+  box-shadow: 1px 1px 20px 1px black;
+}
+
+.plus-icon-1 {
+  width: 70px;
+  transform: translateY(30px);
+}
+.plus-icon-2 {
+  width: 70px;
+  transform: translateY(-30px);
+}
+
+/* * ──────────────────────────────────────────────────────────── Quienes Somos III ─────
+ */
+
+/*
+  * ────────────────────────────────────────────────────────── IV ──────────
+  *   :::::: S E R V I C I O S : :  :   :    :     :        :          :
+  * ────────────────────────────────────────────────────────────────────
+  */
+.serv-card {
+  transform: translateY(0);
+}
+
+/* * ───────────────────────────────────────────────────────────────── Servicios ───── */
+
+/*
+ * ──────────────────────────────────────────────── V ──────────
+ *   :::::: F O R M : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────
+ */
+
+.bg-gray {
+  color: rgb(100, 100, 100) !important;
+}
+
+/* 
+ * ───────────────────────────────────────────────────────────────────── Form ─────
+ */
+
+/*
+ * ────────────────────────────────────────────────────────────── X ──────────
+ *   :::::: M E D I A   Q U E R Y : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────
+ */
+@media (min-width: 700px) {
+  .bg-img {
+    background-position: left;
+  }
+
+  .serv-card {
+    transform: translateY(-100px);
+  }
+}
+
+/* 
+ * ────────────────────────────────────────────────────────────── Media Query ─────
+ */
