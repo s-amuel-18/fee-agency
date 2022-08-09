@@ -411,10 +411,10 @@
             var current = document.getElementsByClassName("active_selector");
 
             if (current.length > 0) {
-                current[0].className = current[0].className.replace("active_selector", "");
+                current[0].className = current[0].className.replace(" active_selector", "");
             }
 
-            this.className += "active_selector";
+            this.className += " active_selector";
         });
     }
     // for (let i = 0; i < activeSelector.length; i++) {
