@@ -42,6 +42,7 @@ html {
 .text-primary {
   color: rgb(8, 172, 228) !important;
 }
+
 /* * ──────────────────────────────────────────────────────── Estilos Generales ─────
  */
 
@@ -70,7 +71,7 @@ html {
  */
 
 .bar {
-  box-shadow: 1px 1px 20px 1px black;
+  box-shadow: 1px 1px 30px 1px black;
 }
 
 .plus-icon-1 {
@@ -103,7 +104,7 @@ html {
  */
 
 .bg-gray {
-  color: rgb(100, 100, 100) !important;
+  background-color: rgb(210, 210, 210) !important;
 }
 
 /* 
@@ -127,4 +128,42 @@ html {
 
 /* 
  * ────────────────────────────────────────────────────────────── Media Query ─────
+ */
+/*
+   * ─── GOOGLE TRANSLATE ───────────────────────────────────────────────────────────
+   */
+.flag_link {
+  cursor: pointer;
+}
+#google_translate_element {
+  display: none;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+body > .skiptranslate {
+  display: none;
+}
+
+body {
+  top: 0px !important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
+/*
+ * ───────────────────────────────────────────────────────── GOOGLE TRANSLATE ─────
  */

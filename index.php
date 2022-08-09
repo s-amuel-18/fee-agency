@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./assets/Logos/Recurso 6.svg" type="image/x-icon">
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +24,9 @@
 </head>
 
 <body>
+    <!-- contenedor oculto de google translate -->
+    <div id="google_translate_element" style="display:none"></div>
+
     <nav>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <a class="navbar-brand " href="#"><img width="150" src="./assets/Logos/Recurso 8.png"
@@ -48,7 +52,10 @@
                     <li class="nav-item">
                         <a class="nav-link px-4 text-uppercase" href="#contact">CONTACTO</a>
                     </li>
-
+                    <li class="d-flex nav-item p-2">
+                        <a class="flag_link eng pr-2" data-lang="en"><span class="flag-icon flag-icon-us"></span></a>
+                        <a class="flag_link es" data-lang="es"><span class="flag-icon flag-icon-es"></span></a>
+                    </li>
 
 
                 </ul>
@@ -227,7 +234,7 @@
         </section>
 
         <section class="pb-5" id="formulario">
-            <div class="container  p-4">
+            <div class="container bg-gray p-4">
                 <div class="text-center">
                     <h1 class="font-weight-bold text-uppercase">Formulario</h1>
                     <p class="text-muted"> Te ofrecemos la oportunidad de ser parte de nuestro negocio, con<span
