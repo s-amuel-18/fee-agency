@@ -31,13 +31,13 @@
     <div id="google_translate_element" style="display:none"></div>
 
     <nav class="container ">
-        <nav class="navbar fixed-top  navbar-expand-sm navbar-light bg-light">
-            <li class="d-flex d-block d-md-none align-items-center text-center nav-item">
+        <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
+            <li class="d-flex d-block d-lg-none align-items-center text-center nav-item">
                 <a class="flag_link es mr-2" translate="no" data-lang="es">ES</a>
                 <a class="flag_link eng " translate="no" data-lang="en">EN</a>
 
             </li>
-            <a class="navbar-brand m-auto m-md-0 " href="#"><img width="180" src="./assets/Logos/Recurso 8.png"
+            <a class="navbar-brand m-auto m-lg-0 " href="#"><img width="180" src="./assets/Logos/Recurso 8.png"
                     alt="Fee agency logo"></a>
 
             <button class="navbar-toggler border-0 d-lg-none" type="button" data-toggle="collapse"
@@ -52,7 +52,8 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase px-4 font-weight-bold" href="#quienes_somos">QUIENES SOMOS</a>
+                        <a class="nav-link text-uppercase px-4 font-weight-bold " href="#quienes_somos">QUIENES
+                            SOMOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-uppercase px-4 font-weight-bold" href="#servicios">SERVICIOS</a>
@@ -61,7 +62,7 @@
                     <li class="nav-item">
                         <a class="nav-link px-4 text-uppercase font-weight-bold" href="#contact">CONTACTO</a>
                     </li>
-                    <div class="d-none d-md-block">
+                    <div class="d-none d-lg-block">
                         <li class="d-flex  align-items-center text-center nav-item p-2">
                             <a class="flag_link es mr-2" translate="no" data-lang="es">ES</a>
                             <a class="flag_link eng " translate="no" data-lang="en">EN</a>
@@ -74,20 +75,20 @@
         </nav>
     </nav>
 
-    <main class="pt-5">
+    <main class="pt-2">
         <section class="pt-5" id="home">
             <div class="container-fluid bg-img pt-5"
                 style="background-image: url(./assets/images/BlankMap-World_gray.png);">
                 <div class="container ">
                     <div class="row d-flex align-items-center ">
-                        <div class="col-12 col-md-6 my-3">
+                        <div class="col-12 col-lg-6 my-3">
                             <div class="">
                                 <img class=" w-100" src="./assets/images/azafata.png" alt="">
                                 <!-- <img class="" src="./assets/images/Recurso 11.svg" alt="">
                                 <img class="" src="./assets/images/Recurso 21.svg" alt=""> -->
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 my-3 text-center text-md-left ">
+                        <div class="col-12 col-lg-6 my-3 text-center text-lg-left ">
                             <div class="my-3 fittext4 title-1 ">
                                 <span class="font-weight-bold ">¿Quieres ser el ejecutivo de ventas que siempre
                                     soñastes?
@@ -98,11 +99,12 @@
                                     !
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row  my-3 ">
+                            <div class="d-flex flex-column flex-lg-row  my-3 ">
                                 <div class=" my-2 "><button type="button"
-                                        class="btn btn-primary  px-5">Registro</button>
+                                        class="btn btn-primary  px-3 px-lg-4">Registro</button>
                                 </div>
-                                <div class=" my-2 mx-4"><button type="button" class="btn btn-secondary  px-5">Inicio
+                                <div class=" my-2 mx-4"><button type="button"
+                                        class="btn btn-secondary  px-3 px-lg-4">Inicio
                                         de
                                         Sesión</button></div>
                             </div>
@@ -127,9 +129,9 @@
             </div>
         </section>
 
-        <section class="pb-5" id="quienes_somos">
+        <section class="" id="quienes_somos">
             <div class="container">
-                <div class=" plus-icon-1 d-none d-md-block ml-auto mr-auto">
+                <div class=" plus-icon-1 d-none d-sm-block ml-auto mr-auto">
                     <img src="./assets/images/plus-icon.svg" alt="">
                 </div>
             </div>
@@ -137,15 +139,16 @@
 
                 <div class="container py-5">
                     <div class="row">
-                        <div class="col-12 col-md-6">
-                            <img class="d-none d-md-block" src="./assets/images/celular.png" alt="celular" width="80%">
+                        <div class="col-12 col-lg-6">
+                            <img class="d-none d-lg-block img-fluid" src="./assets/images/celular.png" alt="celular">
                         </div>
-                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-white">
-                            <div class="fittext4">
-                                <span class="font-weight-bold">Quiénes somos</span>
+                        <div
+                            class="col-12 col-lg-6 d-flex flex-column align-content-md-start  justify-content-center text-white">
+                            <div class="fittext4  text-center pb-3">
+                                <span class="font-weight-bold display-4">Quiénes somos</span>
                             </div>
                             <div class="">
-                                <img class="d-md-none d-block float-left mr-3" src="./assets/images/celular.png"
+                                <img class="d-lg-none d-block float-left mr-3" src="./assets/images/celular.png"
                                     alt="celular" width="100px">
                                 <p class=" text-justify">Somos Agency Fee, una empresa 100% Americana y estamos
                                     conformados
@@ -184,7 +187,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="plus-icon-2 d-block d-md-none ml-auto mr-auto">
+                <div class="plus-icon-2 d-block d-sm-none ml-auto mr-auto">
                     <img src="./assets/images/plus-icon.svg" alt="">
                 </div>
             </div>
@@ -194,7 +197,7 @@
         <section class="" id="servicios">
             <div class="container wrapper serv-card">
                 <div class="row ">
-                    <div class="col-12 col-md-6 p-3 ">
+                    <div class="col-12 col-lg-6 p-3 ">
                         <div class="bg-white bar rounded">
 
                             <div class="row ">
@@ -210,14 +213,14 @@
                                         </p>
                                     </div>
                                     <div class="text-center py-2"><a href="#contact" type="button"
-                                            class="btn btn-sm btn-primary  w-75">Más
+                                            class="btn btn-lg btn-primary  w-75">Más
                                             información</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 p-3 ">
+                    <div class="col-12 col-lg-6 p-3 ">
                         <div class="bg-white bar rounded">
 
                             <div class="row ">
@@ -233,7 +236,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center py-2"><a href="#contact" type="button"
-                                            class="btn btn-sm btn-primary  w-75">Más
+                                            class="btn btn-lg btn-primary  w-75">Más
                                             información</a>
                                     </div>
                                 </div>
@@ -269,41 +272,41 @@
                     <div class="form-group">
 
                         <div class="row">
-                            <div class="col-6 col-md-4 py-3">
-                                <input type="text" class="form-control form-control-sm" name="" id=""
+                            <div class="col-6 col-lg-4 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id=""
                                     aria-describedby="" placeholder="Nombre">
                             </div>
-                            <div class="col-6 col-md-4 py-3">
-                                <input type="text" class="form-control form-control-sm" name="" id=""
+                            <div class="col-6 col-lg-4 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id=""
                                     aria-describedby="" placeholder="Apellido">
                             </div>
-                            <div class="col-12 col-md-4 py-3">
-                                <input type="text" class="form-control form-control-sm" name="" id=""
+                            <div class="col-12 col-lg-4 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id=""
                                     aria-describedby="" placeholder="Coreo Electrónico">
                             </div>
-                            <div class="col-12 col-md-6 py-3">
-                                <input type="text" class="form-control form-control-sm" name="" id=""
+                            <div class="col-12 col-lg-6 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id=""
                                     aria-describedby="" placeholder="País de Residencia ">
                             </div>
-                            <div class="col-12 col-md-6 py-3">
-                                <input type="text" class="form-control form-control-sm" name="" id=""
+                            <div class="col-12 col-lg-6 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id=""
                                     aria-describedby="" placeholder="N° de Pasaporte">
                             </div>
-                            <div class="col-12 col-md-6 py-3">
-                                <input type="text" class="form-control form-control-sm" name="" id=""
+                            <div class="col-12 col-lg-6 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id=""
                                     aria-describedby="" placeholder="Nacionalidad">
                             </div>
-                            <div class="col-12 col-md-6 py-3">
-                                <input type="text" class="form-control form-control-sm" name="" id=""
+                            <div class="col-12 col-lg-6 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id=""
                                     aria-describedby="" placeholder="Ciudad">
                             </div>
-                            <div class="col-12 col-md-6 py-3">
-                                <input type="text" class="form-control form-control-sm" name="" id=""
+                            <div class="col-12 col-lg-6 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id=""
                                     aria-describedby="" placeholder="Direccion">
 
                             </div>
-                            <div class="col-12 col-md-6 py-3">
-                                <input type="tel" class="form-control form-control-sm" id="phone">
+                            <div class="col-12 col-lg-6 py-3">
+                                <input type="tel" class="form-control form-control-lg" id="phone">
                             </div>
                         </div>
                         <div class="d-flex justify-content-center align-items-center">
@@ -316,11 +319,12 @@
                             </div>
                         </div>
 
-                        <div class="d-flex align-items-center justify-content-center flex-column flex-md-row  my-3 ">
+                        <div class="d-flex align-items-center justify-content-center flex-column flex-lg-row  my-3 ">
                             <div class=" my-2 "><button type="submit" class="btn btn-primary  px-5">Enviar</button>
                             </div>
-                            <div class=" my-2 mx-4"><button type="button"
-                                    class="btn btn-secondary  px-5">Cancelar</button></div>
+                            <div class=" my-2 ml-2"><button type="button"
+                                    class="btn btn-secondary  px-5">Cancelar</button>
+                            </div>
                         </div>
                     </div>
                 </form>
@@ -332,8 +336,8 @@
         </section>
 
         <Footer>
-            <div class="bg-primary d-none d-md-block">
-                <div class="container  d-flex text-white py-3">
+            <div class="bg-primary d-none d-lg-block">
+                <div class="container  d-flex align-items-center text-white py-3">
                     <i class="fa-solid fa-3x fa-cookie-bite pr-3"></i>
                     <h5>Esta web utiliza cookies propias para facilitar la navegación y cookies de terceros para obtener
                         estadísticas de uso y satisfacción.</h5>
@@ -344,34 +348,40 @@
 
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-12 d-block d-md-none text-center py-3"><a class="" href="#home"><img width="200"
+                    <div class="col-12 d-block d-lg-none text-center py-3"><a class="" href="#home"><img width="200"
                                 src="./assets/Logos/Recurso 8.png" alt="Agency Fee logo"></a>
                     </div>
 
-                    <div class="col-4 order-2 order-md-1 py-3">
-                        <a class="d-none d-md-block " href="#home"><img width="150" src="./assets/Logos/Recurso 8.png"
-                                alt="Agency Fee logo"></a>
-                        <p class=" text-muted pt-5 pt-md-1 ">All Reserved Desing 2020 </p>
+                    <div class="col-4 order-2 order-lg-1 py-3">
+                        <a class="d-none d-lg-block pb-2 " href="#home"><img width="150"
+                                src="./assets/Logos/Recurso 8.png" alt="Agency Fee logo"></a>
+                        <p class=" text-muted pt-5 pt-lg-4 mt-1 "><small>All Reserved Desing 2020</small> </p>
                     </div>
 
-                    <div class="col-4 order-1 order-md-2">
+                    <div class="col-4 order-1 order-lg-2">
                         <h6 class="font-weight-bold py-3">Contact</h6>
-                        <p class=" text-muted ">info@agencyfree.com</p>
+                        <p class=" text-muted py-2"><small>info@agencyfree.com</small></p>
+                        <div class=" d-none d-lg-flex justify-content-between text-muted footer-link">
+                            <a class="text-muted" href="#"><small>ABOUT</small></a>
+                            <a class="text-muted" href="#"><small>SERVICE</small></a>
+                            <a class="text-muted" href="#"><small>GALLERIES</small> </a>
+                            <a class="text-muted" href="#"><small>CONTACT</small></a>
+                        </div>
                     </div>
 
                     <div class="col-4 order-3">
                         <h6 class="font-weight-bold py-3">Social Media</h6>
-                        <div class="justify-items-center align-items-center d-md-flex">
+                        <div class="justify-items-center align-items-center d-lg-flex py-2">
                             <a href="" class="text-center"><img class="social-link" src="./assets/images/facebook.svg"
                                     alt=""></a>
-                            <a href="" class="text-center  mx-0 mx-md-1"><img class="social-link"
+                            <a href="" class="text-center  mx-0 mx-lg-1"><img class="social-link"
                                     src="./assets/images/twitter.svg" alt=""></a>
                             <a href="" class="text-center"><img class="social-link" src="./assets/images/instagram.svg"
                                     alt=""></a>
-                            <a href="" class="text-center mx-0 mx-md-1"><img class="social-link"
+                            <a href="" class="text-center mx-0 mx-lg-1"><img class="social-link"
                                     src="./assets/images/google-plus.svg" alt=""></a>
                         </div>
-
+                        <span class="text-muted mt-3 d-none d-lg-block"> Start Your New Experience With Us</span>
                     </div>
 
                 </div>
@@ -401,8 +411,8 @@
         maxFontSize: '30px'
     });
     $(".fittext4").fitText(2.2, {
-        minFontSize: '40px',
-        maxFontSize: '80px'
+        minFontSize: '45px',
+        maxFontSize: '100px'
     });
     </script>
     <script>
