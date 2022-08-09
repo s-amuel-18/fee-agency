@@ -20,30 +20,46 @@ html {
   box-sizing: inherit;
 }
 * {
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Montserrat Bold', arial, sans-serif;
 }
+
+
 
 .wrapper {
   overflow: hidden;
 }
 
 /*Int-tel-input */
+.iti {
+  width: 100%;
+  display: block;
+}
 .iti__flag {
-  background-image: url("/assets/intl-tel-input/img/flags.png");
+  background-image: url("/assets/lib/intl-tel-input/img/flags.png");
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {
-    background-image: url("/assets/intl-tel-input/img/flags@2x.png");
+    background-image: url("/assets/lib/intl-tel-input/img/flags@2x.png");
   }
-}
+} 
 
 /* BOOSTRAP CS*/
-.text-primary2 {
-  color: rgb(8, 172, 228) !important;
+
+.bg-primary, .bg-primary:hover, .bg-primary:active, .bg-primary:visited {
+  background-color: rgb(8, 172, 228)!important;
 }
-.bg-primary2 {
-  background-color: rgb(8, 172, 228) !important;
+
+/* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: rgb(8, 172, 228)!important;
+} */
+
+
+.text-primary, .text-primary:hover, .text-primary:active, .text-primary:visited {
+  color: rgb(8, 172, 228)!important;
+}
+.font-weight-bold{
+  font-weight: 2000;
 }
 
 /* * ──────────────────────────────────────────────────────── Estilos Generales ─────
@@ -62,7 +78,7 @@ html {
 }
 
 .title-1 {
-  font-weight: 900;
+  line-height: 1!important;
 }
 
 /* * ──────────────────────────────────────────────────────────────── Header II ───── */
@@ -74,7 +90,7 @@ html {
  */
 
 .bar {
-  box-shadow: 1px 1px 30px 1px black;
+  box-shadow: 1px 1px 10px  rgb(105, 102, 102);
 }
 
 .plus-icon-1 {
@@ -98,6 +114,12 @@ html {
   transform: translateY(0);
 }
 
+.serv-text{
+  font-size: 15px;
+  line-height: 1;
+}
+
+
 /* * ───────────────────────────────────────────────────────────────── Servicios ───── */
 
 /*
@@ -114,29 +136,45 @@ html {
  * ───────────────────────────────────────────────────────────────────── Form ─────
  */
 
-/*
- * ────────────────────────────────────────────────────────────── X ──────────
- *   :::::: M E D I A   Q U E R Y : :  :   :    :     :        :          :
- * ────────────────────────────────────────────────────────────────────────
- */
-@media (min-width: 700px) {
-  .bg-img {
-    background-position: left;
-  }
+ /*
+  * ──────────────────────────────────────────────────── VI ──────────
+  *   :::::: F O O T E R : :  :   :    :     :        :          :
+  * ──────────────────────────────────────────────────────────────
+  */
 
-  .serv-card {
-    transform: translateY(-100px);
-  }
+.social-link{
+  width: 20px;
 }
 
 /* 
- * ────────────────────────────────────────────────────────────── Media Query ─────
+  * ─────────────────────────────────────────────────────────────────── Footer ─────
  */
+
 /*
    * ─── GOOGLE TRANSLATE ───────────────────────────────────────────────────────────
    */
 .flag_link {
+  user-select: none;
   cursor: pointer;
+  background-color: rgb(210, 210, 210) !important;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 25px;
+  transition: ease-in 0.5s;
+}
+.flag_link:visited {
+  background-color: rgb(8, 172, 228) !important;
+}
+.flag_link:hover {
+  background-color: rgb(8, 172, 228) !important;
+}
+.flag_link:active {
+  background-color: rgb(8, 172, 228) !important;
+}
+.flag_link:focus {
+  background-color: rgb(8, 172, 228) !important;
 }
 #google_translate_element {
   display: none;
@@ -170,3 +208,70 @@ body {
 /*
  * ───────────────────────────────────────────────────────── GOOGLE TRANSLATE ─────
  */
+
+/*
+ * ────────────────────────────────────────────────────────────── X ──────────
+ *   :::::: M E D I A   Q U E R Y : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────
+ */
+ html {
+  font-size: 0.7rem!important;
+}
+h1 {
+ font-size: 1.2rem!important;
+}
+h2 {
+ font-size: 1.1rem!important;
+}
+
+@media (min-width: 768px) {
+ html {
+   font-size: 1.1rem!important;
+ }
+ h1 {
+     font-size: 1.3rem!important;
+ }
+ h2 {
+     font-size: 1.2rem!important;
+ }
+
+ .bg-img {
+  background-position: left;
+}
+
+.serv-card {
+  transform: translateY(-100px);
+}
+.social-link{
+  width: 30px;
+}
+}
+
+@media (min-width: 991px) {
+   html {
+   font-size: 1.2rem!important;
+ }
+ h1 {
+     font-size: 1.5rem!important;
+ }
+ h2 {
+     font-size: 1.4rem!important;
+ }
+}
+
+@media (min-width: 1200px) {
+ html {
+   font-size: 1.2rem!important;
+ }
+ h1 {
+     font-size: 1.7rem!important;
+ }
+ h2 {
+     font-size: 1.6rem!important;
+ }
+}
+
+/* 
+ * ────────────────────────────────────────────────────────────── Media Query ─────
+ */
+/*

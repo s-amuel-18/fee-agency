@@ -10,14 +10,16 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://allfont.net/allfont.css?fonts=montserrat-bold" rel="stylesheet" type="text/css" />
     <!-- end font -->
 
-    <!-- styles -->
-    <link rel="stylesheet" href="./css/style.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./assets/lib/bootstrap-4/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/lib/intl-tel-input/css/intlTelInput.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css">
     <!-- end styles -->
 
     <title>Fee Agency</title>
@@ -27,10 +29,16 @@
     <!-- contenedor oculto de google translate -->
     <div id="google_translate_element" style="display:none"></div>
 
-    <nav>
+    <nav class="container ">
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a class="navbar-brand " href="#"><img width="180" src="./assets/Logos/Recurso 8.png"
+            <li class="d-flex d-block d-md-none align-items-center text-center nav-item">
+                <a class="flag_link es mr-2" translate="no" data-lang="es">ES</a>
+                <a class="flag_link eng " translate="no" data-lang="en">EN</a>
+
+            </li>
+            <a class="navbar-brand m-auto m-md-0 " href="#"><img width="180" src="./assets/Logos/Recurso 8.png"
                     alt="Fee agency logo"></a>
+
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -39,26 +47,25 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link text-uppercase px-4 text-primary" href="#home">HOME <span
+                        <a class="nav-link text-uppercase px-4 text-primary font-weight-bold" href="#home">HOME <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase px-4" href="#quienes_somos">QUIENES SOMOS</a>
+                        <a class="nav-link text-uppercase px-4 font-weight-bold" href="#quienes_somos">QUIENES SOMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase px-4" href="#servicios">SERVICIOS</a>
+                        <a class="nav-link text-uppercase px-4 font-weight-bold" href="#servicios">SERVICIOS</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link px-4 text-uppercase" href="#contact">CONTACTO</a>
+                        <a class="nav-link px-4 text-uppercase font-weight-bold" href="#contact">CONTACTO</a>
                     </li>
-                    <li class="d-flex align-items-center nav-item p-2">
-                        <a class="flag_link es pr-2" data-lang="es"><img width="27px" src="./assets/images/es-btn.svg"
-                                alt="Botón traductor Español"></a>
-                        <a class="flag_link eng " data-lang="en"><img width="27px" src="./assets/images/en-btn.svg"
-                                alt="Botón traductor Inglés"></a>
-
-                    </li>
+                    <div class="d-none d-md-block">
+                        <li class="d-flex  align-items-center text-center nav-item p-2">
+                            <a class="flag_link es mr-2" translate="no" data-lang="es">ES</a>
+                            <a class="flag_link eng " translate="no" data-lang="en">EN</a>
+                        </li>
+                    </div>
 
 
                 </ul>
@@ -78,13 +85,16 @@
                                 <img class="" src="./assets/images/Recurso 21.svg" alt=""> -->
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 my-3 text-center text-md-left">
-                            <div class="my-3">
-                                <h1 class="title-1 fittext3">¿Quieres ser el ejecutivo de ventas que siempre soñastes?
-                                </h1>
+                        <div class="col-12 col-md-6 my-3 text-center text-md-left ">
+                            <div class="my-3 fittext4 title-1 ">
+                                <span class="font-weight-bold ">¿Quieres ser el ejecutivo de ventas que siempre
+                                    soñastes?
+                                </span>
                             </div>
                             <div class="my-3 fittext3">
-                                <h2 class="text-primary text-uppercase title-1">¡con nosotros puedes lograrlo !</h2>
+                                <span class="text-primary text-uppercase font-weight-bold">¡con nosotros puedes lograrlo
+                                    !
+                                </span>
                             </div>
                             <div class="d-flex flex-column flex-md-row  my-3 ">
                                 <div class=" my-2 "><button type="button"
@@ -106,7 +116,7 @@
                         actrativos
                         beneficios y licencia gratuita.
                     </h4>
-                    <div class=" py-3"><button type="button" class="btn btn-primary  px-5">Postulate
+                    <div class=" py-3"><button type="button" class="btn btn-primary text-capitalize px-5">Postulate
                             aquí</button>
                     </div>
                 </div>
@@ -120,16 +130,16 @@
                     <img src="./assets/images/plus-icon.svg" alt="">
                 </div>
             </div>
-            <div class="bg-primary p-3" style="min-height:80vh ;">
+            <div class="bg-primary py-5 ">
 
-                <div class="container ">
+                <div class="container py-5">
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <img class="d-none d-md-block" src="./assets/images/celular.png" alt="celular" width="80%">
                         </div>
                         <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-white">
-                            <div class="">
-                                <h1 class="title-1 ">Quiénes somos</h1>
+                            <div class="fittext4">
+                                <span class="font-weight-bold">Quiénes somos</span>
                             </div>
                             <div class="">
                                 <img class="d-md-none d-block float-left mr-3" src="./assets/images/celular.png"
@@ -143,7 +153,7 @@
                                     lo
                                     que necesites.</p>
                             </div>
-                            <div class="d-flex">
+                            <div class="d-flex mt-4">
                                 <div class="bg-white p-1 bar">
 
                                 </div>
@@ -181,40 +191,46 @@
         <section id="servicios">
             <div class="container wrapper serv-card">
                 <div class="row ">
-                    <div class="col-12 col-md-6 py-4  ">
+                    <div class="col-12 col-md-6 p-3 ">
                         <div class="bg-white bar rounded">
-                            <div class="d-flex ">
-                                <div class="">
-                                    <img src="./assets/images/girl-small.png" width="100%" alt="">
+
+                            <div class="row ">
+                                <div class="col-5">
+                                    <img src="./assets/images/girl-small.png" width="100%" height="100%" alt="">
                                 </div>
-                                <div class=" d-flex flex-column justify-content-center px-3 pt-3">
-                                    <div class="title-1">
-                                        <h4>Soy agente</h4>
+                                <div class=" col-7 d-flex flex-column justify-content-center py-1">
+                                    <div class="font-weight-bold py-2">
+                                        <h5>Soy agente</h5>
                                     </div>
-                                    <div class="text-muted text-uppercase">
-                                        <p>Y quiero empezar a asesorarme con agency fee</p>
+                                    <div class="text-muted  ">
+                                        <p class="serv-text text-uppercase">Y quiero empezar a asesorarme con agency fee
+                                        </p>
                                     </div>
-                                    <div class=" py-3"><button type="button" class="btn btn-primary  px-5">Más
+                                    <div class="text-center py-2"><button type="button"
+                                            class="btn btn-sm btn-primary  w-75">Más
                                             información</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 py-4  ">
+                    <div class="col-12 col-md-6 p-3 ">
                         <div class="bg-white bar rounded">
-                            <div class="d-flex ">
-                                <div class="">
-                                    <img src="./assets/images/girl-small.png" width="100%" alt="">
+
+                            <div class="row ">
+                                <div class="col-5">
+                                    <img src="./assets/images/passport.png" width="100%" height="100%" alt="">
                                 </div>
-                                <div class=" d-flex flex-column justify-content-center px-3 pt-3">
-                                    <div class="title-1">
-                                        <h4>Soy agente</h4>
+                                <div class=" col-7 d-flex flex-column justify-content-center py-1">
+                                    <div class="font-weight-bold py-2">
+                                        <h5>Soy agencia</h5>
                                     </div>
-                                    <div class="text-muted text-uppercase">
-                                        <p>Y quiero empezar a asesorarme con agency fee</p>
+                                    <div class="text-muted  ">
+                                        <p class="serv-text text-uppercase">Y quiero empezar a asesorarme con agency fee
+                                        </p>
                                     </div>
-                                    <div class=" py-3"><button type="button" class="btn btn-primary  px-5">Más
+                                    <div class="text-center py-2"><button type="button"
+                                            class="btn btn-sm btn-primary  w-75">Más
                                             información</button>
                                     </div>
                                 </div>
@@ -224,7 +240,7 @@
                 </div>
 
                 <div class="  text-center py-5">
-                    <h2 class="font-weight-bold fittext3">"Lograr la excelencia en la atención al cliente y en la <br>
+                    <h2 class="font-weight-bold ">"Lograr la excelencia en la atención al cliente y en la <br>
                         calidad del servicio
                         que prestamos a su
                         agencia de viajes, <br> <span class="text-primary text-uppercase">ES NUESTRO GRAN
@@ -236,7 +252,7 @@
 
         </section>
 
-        <section class="pb-5" id="formulario">
+        <section class="pb-5 px-3" id="formulario">
             <div class="container bg-gray p-4">
                 <div class="text-center">
                     <h1 class="font-weight-bold text-uppercase">Formulario</h1>
@@ -268,7 +284,7 @@
                             </div>
                             <div class="col-12 col-md-6 py-3">
                                 <input type="text" class="form-control form-control-sm" name="" id=""
-                                    aria-describedby="" placeholder="N° de pasaporte">
+                                    aria-describedby="" placeholder="N° de Pasaporte">
                             </div>
                             <div class="col-12 col-md-6 py-3">
                                 <input type="text" class="form-control form-control-sm" name="" id=""
@@ -276,7 +292,7 @@
                             </div>
                             <div class="col-12 col-md-6 py-3">
                                 <input type="text" class="form-control form-control-sm" name="" id=""
-                                    aria-describedby="" placeholder="Estado">
+                                    aria-describedby="" placeholder="Ciudad">
                             </div>
                             <div class="col-12 col-md-6 py-3">
                                 <input type="text" class="form-control form-control-sm" name="" id=""
@@ -284,14 +300,25 @@
 
                             </div>
                             <div class="col-12 col-md-6 py-3">
-                                <input type="tel" id="phone">
+                                <input type="tel" class="form-control form-control-sm" id="phone">
                             </div>
                         </div>
-                        <div class="col-4 offset-4 p-3 bg-primary">
-                            <input type="file" class="form-control-file d-inline" id="exampleFormControlFile1">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class=" p-2  btn-primary text-center rounded">
+
+                                <label for="img" class="btn btn-light text-muted mt-2">Selecionar archivo</label>
+                                <input type="file" id="img_rif" style="display:none">
+                                <label class="" for="img_rif">Adjuntar
+                                    Foto del RIF*</label>
+                            </div>
                         </div>
 
-
+                        <div class="d-flex align-items-center justify-content-center flex-column flex-md-row  my-3 ">
+                            <div class=" my-2 "><button type="submit" class="btn btn-primary  px-5">Enviar</button>
+                            </div>
+                            <div class=" my-2 mx-4"><button type="button"
+                                    class="btn btn-secondary  px-5">Cancelar</button></div>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -321,21 +348,25 @@
                     <div class="col-4 order-2 order-md-1 py-3">
                         <a class="d-none d-md-block " href="#home"><img width="150" src="./assets/Logos/Recurso 8.png"
                                 alt="Agency Fee logo"></a>
-                        <p class="text-muted pt-5 pt-md-1 ">All Reserved Desing 2020 </p>
+                        <p class=" text-muted pt-5 pt-md-1 ">All Reserved Desing 2020 </p>
                     </div>
 
                     <div class="col-4 order-1 order-md-2">
                         <h6 class="font-weight-bold py-3">Contact</h6>
-                        <p class="text-muted ">info@agencyfree.com</p>
+                        <p class=" text-muted ">info@agencyfree.com</p>
                     </div>
 
-                    <div class="col- order-3">
+                    <div class="col-4 order-3">
                         <h6 class="font-weight-bold py-3">Social Media</h6>
-                        <div class="d-flex">
-                            <div class=""></div>
-                            <div class=""></div>
-                            <div class=""></div>
-                            <div class=""></div>
+                        <div class="justify-items-center align-items-center d-md-flex">
+                            <a href="" class="text-center"><img class="social-link" src="./assets/images/facebook.svg"
+                                    alt=""></a>
+                            <a href="" class="text-center  mx-0 mx-md-1"><img class="social-link"
+                                    src="./assets/images/twitter.svg" alt=""></a>
+                            <a href="" class="text-center"><img class="social-link" src="./assets/images/instagram.svg"
+                                    alt=""></a>
+                            <a href="" class="text-center mx-0 mx-md-1"><img class="social-link"
+                                    src="./assets/images/google-plus.svg" alt=""></a>
                         </div>
 
                     </div>
@@ -359,17 +390,21 @@
     </script>
     <script src="./assets/lib/google-translate.js"></script>
     <script type="text/javascript">
-    $(".fittext1").fitText();
+    $(".fittext1").fitText(3);
     $(".fittext2").fitText(1.5);
     $(".fittext3").fitText(2.2, {
-        minFontSize: '15px',
-        maxFontSize: '28px'
+        minFontSize: '20px',
+        maxFontSize: '30px'
+    });
+    $(".fittext4").fitText(2.2, {
+        minFontSize: '40px',
+        maxFontSize: '80px'
     });
     </script>
     <script>
     var input = document.querySelector("#phone");
     window.intlTelInput(input, {
-        // any initialisation options go here
+
     });
     </script>
     <!-- end scripts -->
