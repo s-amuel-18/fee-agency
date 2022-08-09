@@ -17,7 +17,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./assets/lib/bootstrap-4/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/lib/intl-tel-input/css/intlTelInput.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+        integrity="sha384-fZCoUih8XsaUZnNDOiLqnby1tMJ0sE7oBbNk2Xxf5x8Z4SvNQ9j83vFMa/erbVrV" crossorigin="anonymous" />
     <!-- styles -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- end styles -->
@@ -30,7 +31,7 @@
     <div id="google_translate_element" style="display:none"></div>
 
     <nav class="container ">
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar fixed-top  navbar-expand-sm navbar-light bg-light">
             <li class="d-flex d-block d-md-none align-items-center text-center nav-item">
                 <a class="flag_link es mr-2" translate="no" data-lang="es">ES</a>
                 <a class="flag_link eng " translate="no" data-lang="en">EN</a>
@@ -39,10 +40,10 @@
             <a class="navbar-brand m-auto m-md-0 " href="#"><img width="180" src="./assets/Logos/Recurso 8.png"
                     alt="Fee agency logo"></a>
 
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+            <button class="navbar-toggler border-0 d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <img width="20px" src="./assets/images/burger.svg" alt="">
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -73,10 +74,11 @@
         </nav>
     </nav>
 
-    <main>
-        <section id="home">
-            <div class="container-fluid bg-img" style="background-image: url(./assets/images/BlankMap-World_gray.png);">
-                <div class="container">
+    <main class="pt-5">
+        <section class="pt-5" id="home">
+            <div class="container-fluid bg-img pt-5"
+                style="background-image: url(./assets/images/BlankMap-World_gray.png);">
+                <div class="container ">
                     <div class="row d-flex align-items-center ">
                         <div class="col-12 col-md-6 my-3">
                             <div class="">
@@ -116,15 +118,16 @@
                         actrativos
                         beneficios y licencia gratuita.
                     </h4>
-                    <div class=" py-3"><button type="button" class="btn btn-primary text-capitalize px-5">Postulate
-                            aquí</button>
+                    <div class=" py-3"><a href="#contact" type="button"
+                            class="btn btn-primary text-capitalize px-5">Postulate
+                            aquí</a>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <section class="" id="quienes_somos">
+        <section class="pb-5" id="quienes_somos">
             <div class="container">
                 <div class=" plus-icon-1 d-none d-md-block ml-auto mr-auto">
                     <img src="./assets/images/plus-icon.svg" alt="">
@@ -188,7 +191,7 @@
 
         </section>
 
-        <section id="servicios">
+        <section class="" id="servicios">
             <div class="container wrapper serv-card">
                 <div class="row ">
                     <div class="col-12 col-md-6 p-3 ">
@@ -206,9 +209,9 @@
                                         <p class="serv-text text-uppercase">Y quiero empezar a asesorarme con agency fee
                                         </p>
                                     </div>
-                                    <div class="text-center py-2"><button type="button"
+                                    <div class="text-center py-2"><a href="#contact" type="button"
                                             class="btn btn-sm btn-primary  w-75">Más
-                                            información</button>
+                                            información</a>
                                     </div>
                                 </div>
                             </div>
@@ -229,9 +232,9 @@
                                         <p class="serv-text text-uppercase">Y quiero empezar a asesorarme con agency fee
                                         </p>
                                     </div>
-                                    <div class="text-center py-2"><button type="button"
+                                    <div class="text-center py-2"><a href="#contact" type="button"
                                             class="btn btn-sm btn-primary  w-75">Más
-                                            información</button>
+                                            información</a>
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +255,7 @@
 
         </section>
 
-        <section class="pb-5 px-3" id="formulario">
+        <section class="py-5 px-3" id="contact">
             <div class="container bg-gray p-4">
                 <div class="text-center">
                     <h1 class="font-weight-bold text-uppercase">Formulario</h1>
@@ -331,7 +334,7 @@
         <Footer>
             <div class="bg-primary d-none d-md-block">
                 <div class="container  d-flex text-white py-3">
-                    <img src="" alt="">
+                    <i class="fa-solid fa-3x fa-cookie-bite pr-3"></i>
                     <h5>Esta web utiliza cookies propias para facilitar la navegación y cookies de terceros para obtener
                         estadísticas de uso y satisfacción.</h5>
                     <div class=""><a name="" id="" class="btn btn-light text-secondary" href="#" role="button">
@@ -389,6 +392,7 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
     </script>
     <script src="./assets/lib/google-translate.js"></script>
+
     <script type="text/javascript">
     $(".fittext1").fitText(3);
     $(".fittext2").fitText(1.5);

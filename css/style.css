@@ -34,15 +34,6 @@ html {
   width: 100%;
   display: block;
 }
-.iti__flag {
-  background-image: url("/assets/lib/intl-tel-input/img/flags.png");
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .iti__flag {
-    background-image: url("/assets/lib/intl-tel-input/img/flags@2x.png");
-  }
-} 
 
 /* BOOSTRAP CS*/
 
@@ -79,6 +70,7 @@ html {
 
 .title-1 {
   line-height: 1!important;
+  font-size: 40px;
 }
 
 /* * ──────────────────────────────────────────────────────────────── Header II ───── */
