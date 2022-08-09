@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
 
     <nav>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a class="navbar-brand " href="#"><img width="150" src="./assets/Logos/Recurso 8.png"
+            <a class="navbar-brand " href="#"><img width="180" src="./assets/Logos/Recurso 8.png"
                     alt="Fee agency logo"></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -52,9 +52,12 @@
                     <li class="nav-item">
                         <a class="nav-link px-4 text-uppercase" href="#contact">CONTACTO</a>
                     </li>
-                    <li class="d-flex nav-item p-2">
-                        <a class="flag_link eng pr-2" data-lang="en"><span class="flag-icon flag-icon-us"></span></a>
-                        <a class="flag_link es" data-lang="es"><span class="flag-icon flag-icon-es"></span></a>
+                    <li class="d-flex align-items-center nav-item p-2">
+                        <a class="flag_link es pr-2" data-lang="es"><img width="27px" src="./assets/images/es-btn.svg"
+                                alt="Botón traductor Español"></a>
+                        <a class="flag_link eng " data-lang="en"><img width="27px" src="./assets/images/en-btn.svg"
+                                alt="Botón traductor Inglés"></a>
+
                     </li>
 
 
@@ -351,6 +354,10 @@
     <!-- <input type="tel" id="phone"> -->
     <script src="./assets/lib/intl-tel-input/js/intlTelInput.min.js"></script>
     <script src="./assets/lib/FitText.js-1.2.0/jquery.fittext.js"></script>
+    <!-- Google Translate -->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script src="./assets/lib/google-translate.js"></script>
     <script type="text/javascript">
     $(".fittext1").fitText();
     $(".fittext2").fitText(1.5);

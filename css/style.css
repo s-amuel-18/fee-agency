@@ -39,8 +39,11 @@ html {
 }
 
 /* BOOSTRAP CS*/
-.text-primary {
+.text-primary2 {
   color: rgb(8, 172, 228) !important;
+}
+.bg-primary2 {
+  background-color: rgb(8, 172, 228) !important;
 }
 
 /* * ──────────────────────────────────────────────────────── Estilos Generales ─────
