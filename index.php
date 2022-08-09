@@ -64,7 +64,7 @@
                     </li>
                     <div class="d-none d-lg-block">
                         <li class="d-flex  align-items-center text-center nav-item p-2">
-                            <a class="flag_link es mr-2" translate="no" data-lang="es">ES</a>
+                            <a class="flag_link active_selector es mr-2" translate="no" data-lang="es">ES</a>
                             <a class="flag_link eng " translate="no" data-lang="en">EN</a>
                         </li>
                     </div>
@@ -403,6 +403,28 @@
     </script>
     <script src="./assets/lib/google-translate.js"></script>
 
+    <script>
+    let activeSelector = document.getElementsByClassName('flag_link')
+
+    for (var i = 0; i < activeSelector.length; i++) {
+        activeSelector[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active_selector");
+
+            if (current.length > 0) {
+                current[0].className = current[0].className.replace("active_selector", "");
+            }
+
+            this.className += "active_selector";
+        });
+    }
+    // for (let i = 0; i < activeSelector.length; i++) {
+    //     activeSelector[i].addEventListener("click", function() {
+    //         let current = document.getElementsByClassName("active_selector");
+    //         current[0].className = current[0].className.replace(" active_selector", "");
+    //         this.className += "active_selector";
+    //     });
+    // }
+    </script>
     <script type="text/javascript">
     $(".fittext1").fitText(3);
     $(".fittext2").fitText(1.5);

@@ -160,18 +160,10 @@ html {
   line-height: 25px;
   transition: ease-in 0.5s;
 }
-.flag_link:visited {
-  background-color: rgb(8, 172, 228) !important;
-}
 .flag_link:hover {
   background-color: rgb(8, 172, 228) !important;
 }
-.flag_link:active {
-  background-color: rgb(8, 172, 228) !important;
-}
-.flag_link:focus {
-  background-color: rgb(8, 172, 228) !important;
-}
+
 #google_translate_element {
   display: none;
 }
@@ -200,6 +192,10 @@ body {
 .goog-text-highlight {
   background: none !important;
   box-shadow: none !important;
+}
+
+.active_selector{
+  background-color: rgb(8, 172, 228) !important;
 }
 /*
  * ───────────────────────────────────────────────────────── GOOGLE TRANSLATE ─────
