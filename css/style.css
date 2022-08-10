@@ -1,0 +1,272 @@
+/*
+ * ────────────────────────────────────────────────────────────────────────── I ──────────
+ *   :::::: E S T I L O S   G E N E R A L E S : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────────────────
+ */
+
+body {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.position-relative {
+  overflow: hidden !important;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
+  font-family: 'Montserrat Bold', arial, sans-serif;
+}
+
+
+
+.wrapper {
+  overflow: hidden;
+}
+
+/*Int-tel-input */
+.iti {
+  width: 100%;
+  display: block;
+}
+
+/* BOOSTRAP CS*/
+
+.bg-primary, .bg-primary:hover, .bg-primary:active, .bg-primary:visited {
+  background-color: rgb(8, 172, 228)!important;
+}
+
+/* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: rgb(8, 172, 228)!important;
+} */
+
+
+.text-primary, .text-primary:hover, .text-primary:active, .text-primary:visited {
+  color: rgb(8, 172, 228)!important;
+}
+.font-weight-bold{
+  font-weight: 2000;
+}
+
+/* * ──────────────────────────────────────────────────────── Estilos Generales ─────
+ */
+
+/*
+  * ──────────────────────────────────────────────────── II ──────────
+  *   :::::: H E A D E R : :  :   :    :     :        :          :
+  * ──────────────────────────────────────────────────────────────
+  */
+
+.bg-img {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title-1 {
+  line-height: 1!important;
+  font-size: 40px;
+}
+
+.navbar-brand img{
+  width: 130px;
+}
+
+/* * ──────────────────────────────────────────────────────────────── Header II ───── */
+
+/*
+ * ────────────────────────────────────────────────────────────────── III ──────────
+ *   :::::: Q U I E N E S   S O M O S : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────────
+ */
+
+.bar {
+  box-shadow: 1px 1px 10px  rgb(105, 102, 102);
+}
+
+.plus-icon-1 {
+  width: 70px;
+  transform: translateY(30px);
+}
+.plus-icon-2 {
+  width: 70px;
+  transform: translateY(-30px);
+}
+
+/* * ──────────────────────────────────────────────────────────── Quienes Somos III ─────
+ */
+
+/*
+  * ────────────────────────────────────────────────────────── IV ──────────
+  *   :::::: S E R V I C I O S : :  :   :    :     :        :          :
+  * ────────────────────────────────────────────────────────────────────
+  */
+.serv-card {
+  transform: translateY(0);
+}
+
+.serv-text{
+  font-size: 15px;
+  line-height: 1;
+}
+
+
+/* * ───────────────────────────────────────────────────────────────── Servicios ───── */
+
+/*
+ * ──────────────────────────────────────────────── V ──────────
+ *   :::::: F O R M : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────
+ */
+
+.bg-gray {
+  background-color: rgb(240, 240, 240) !important;
+}
+
+/* 
+ * ───────────────────────────────────────────────────────────────────── Form ─────
+ */
+
+ /*
+  * ──────────────────────────────────────────────────── VI ──────────
+  *   :::::: F O O T E R : :  :   :    :     :        :          :
+  * ──────────────────────────────────────────────────────────────
+  */
+
+.social-link{
+  width: 20px;
+}
+
+/* 
+  * ─────────────────────────────────────────────────────────────────── Footer ─────
+ */
+
+/*
+   * ─── GOOGLE TRANSLATE ───────────────────────────────────────────────────────────
+   */
+.flag_link {
+  user-select: none;
+  cursor: pointer;
+  background-color: rgb(210, 210, 210) !important;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 25px;
+  transition: ease-in 0.5s;
+}
+.flag_link:hover {
+  background-color: rgb(8, 172, 228) !important;
+}
+
+#google_translate_element {
+  display: none;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+body > .skiptranslate {
+  display: none;
+}
+
+body {
+  top: 0px !important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.active_selector{
+  background-color: rgb(8, 172, 228) !important;
+}
+/*
+ * ───────────────────────────────────────────────────────── GOOGLE TRANSLATE ─────
+ */
+
+/*
+ * ────────────────────────────────────────────────────────────── X ──────────
+ *   :::::: M E D I A   Q U E R Y : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────
+ */
+ html {
+  font-size: 1rem!important;
+}
+h1 {
+ font-size: 1.2rem!important;
+}
+h2 {
+ font-size: 1.1rem!important;
+}
+
+@media (min-width: 768px) {
+ html {
+   font-size: 1.1rem!important;
+ }
+ h1 {
+     font-size: 1.3rem!important;
+ }
+ h2 {
+     font-size: 1.2rem!important;
+ }
+
+
+.navbar-brand img{
+  width: 180px;
+}
+.serv-card {
+  transform: translateY(-100px);
+}
+.social-link{
+  width: 30px;
+}
+}
+
+@media (min-width: 992px) {
+   html {
+   font-size: 1.2rem!important;
+ }
+ h1 {
+     font-size: 1.5rem!important;
+ }
+ h2 {
+     font-size: 1.4rem!important;
+ }
+ .bg-img {
+  background-position: left;
+}
+}
+
+@media (min-width: 1200px) {
+ html {
+   font-size: 1.2rem!important;
+ }
+ h1 {
+     font-size: 1.7rem!important;
+ }
+ h2 {
+     font-size: 1.6rem!important;
+ }
+}
+
+/* 
+ * ────────────────────────────────────────────────────────────── Media Query ─────
+ */
+/*
