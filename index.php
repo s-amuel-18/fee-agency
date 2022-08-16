@@ -250,13 +250,7 @@
                                 <input type="text" class="form-control form-control-lg" name="" id="" aria-describedby="" placeholder="Apellido">
                             </div>
                             <div class="col-12 col-lg-4 py-3">
-                                <input type="text" class="form-control form-control-lg" name="" id="" aria-describedby="" placeholder="Correo Electrónico">
-                            </div>
-                            <div class="col-12 col-lg-6 py-3">
                                 <input type="text" class="form-control form-control-lg" name="" id="" aria-describedby="" placeholder="País de Residencia ">
-                            </div>
-                            <div class="col-12 col-lg-6 py-3">
-                                <input type="text" class="form-control form-control-lg" name="" id="" aria-describedby="" placeholder="N° de Pasaporte">
                             </div>
                             <div class="col-12 col-lg-6 py-3">
                                 <input type="text" class="form-control form-control-lg" name="" id="" aria-describedby="" placeholder="Nacionalidad">
@@ -266,24 +260,39 @@
                             </div>
                             <div class="col-12 col-lg-6 py-3">
                                 <input type="text" class="form-control form-control-lg" name="" id="" aria-describedby="" placeholder="Dirección">
-
+                            </div>
+                            <div class="col-12 col-lg-6 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id="" aria-describedby="" placeholder="N° de Pasaporte">
+                            </div>
+                            <div class="col-12 col-lg-6 py-3">
+                                <input type="text" class="form-control form-control-lg" name="" id="" aria-describedby="" placeholder="Correo Electrónico">
                             </div>
                             <div class="col-12 col-lg-6 py-3">
                                 <input type="tel" class="form-control form-control-lg" placeholder="Teléfono" id="phone">
                             </div>
-                        </div>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <div class=" p-2  btn-primary text-center rounded">
+                            <div class="col-12 col-lg-6 py-3 offset-lg-3">
+                                <input type="file" class="d-none form-control form-control-lg w-100" id="rif">
+                                <label class="btn btn-light btn-lg w-100" for="rif">Seleccionar foro del RIF</label>
 
-                                <label for="img" class="btn btn-light text-muted mt-2">Selecionar archivo</label>
-                                <input type="file" id="img_rif" style="display:none">
-                                <label class="" for="img_rif">Adjuntar documento de identidad</label>
-                                <p><small>Tamaño máximo (formato .jpg .png)</small></p>
+                            </div>
+                        </div>
+                        <div class="m-auto" style="max-width: 350px">
+                            <label class="text-center d-block" for="img_rif">Adjuntar documento de identidad</label>
+                            <div class=" d-flex justify-content-center align-items-center flex-column">
+                                <div class="w-100 p-2  btn-primary text-center rounded">
+
+                                    <label for="img_rif" class="btn btn-light text-muted mt-2 btn-block">Selecionar archivo</label>
+                                    <input type="file" multiple accept=".jpg, .png" id="img_rif" style="display:none">
+                                    <p class="m-0"><small>Tamaño máximo (formato .jpg .png)</small></p>
+                                </div>
+                                <div class="pt-3 w-100">
+                                    <button type="submit" class="w-100 btn btn-primary  px-5">Enviar</button>
+                                </div>
                             </div>
                         </div>
 
                         <div class="d-flex align-items-center justify-content-center flex-column flex-lg-row  my-3 ">
-                            <div class=" my-2 "><button type="submit" class="btn btn-primary  px-5">Enviar</button>
+                            <div class=" my-2 ">
                             </div>
                         </div>
                     </div>
@@ -358,6 +367,7 @@
     <!-- scripts -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./assets/js/custom-file-input.js"></script>
     <script src="./assets/lib/jquery/jquery-3.6.0.min.js"></script>
     <script src="./assets/lib/bootstrap-4/js/bootstrap.bundle.min.js"></script>
     <!-- intl-tel-input -->
