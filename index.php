@@ -120,13 +120,13 @@
             </div>
         </section>
 
-        <section class="" id="quienes_somos">
+        <section class="position-relative" id="quienes_somos">
             <div class="container">
                 <div class=" plus-icon-1 d-none d-sm-block ml-auto mr-auto">
                     <img src="./assets/images/plus-icon.svg" alt="">
                 </div>
             </div>
-            <div class="bg-primary py-5 ">
+            <div class="w-100 h-100 bg-primary bg-img py-5" style="background-image: url(./assets/images/BlankMap-World_gray.png);">
 
                 <div class="container py-5">
                     <div class="row">
@@ -164,6 +164,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="container">
                 <div class="plus-icon-2 d-block d-sm-none ml-auto mr-auto">
                     <img src="./assets/images/plus-icon.svg" alt="">
