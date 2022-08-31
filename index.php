@@ -61,14 +61,14 @@
             <div class="container py-5">
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <img class="d-none d-lg-block img-fluid w-100" src="./assets/images/celular-3.jpg" alt="celular">
+                        <img class="d-none d-lg-block img-fluid w-100" src="./assets/images/celular-2.jpg" alt="celular">
                     </div>
                     <div class="col-12 col-lg-6 d-flex flex-column align-content-md-start  justify-content-center text-white">
                         <div class="fittext4  text-center pb-3">
                             <span class="font-weight-bold display-4">¿Quiénes somos?</span>
                         </div>
                         <div class="">
-                            <img class="d-lg-none d-block float-left mr-3" src="./assets/images/celular-3.jpg" alt="celular" width="100px">
+                            <img class="d-lg-none d-block float-left mr-3" src="./assets/images/celular-2.jpg" alt="celular" width="100px">
                             <p class=" text-justify">Somos una empresa 100% americana y estamos conformados por un equipo altamente especializado y en constante formación, dispuesto siempre a brindarte apoyo en tu gestión de ventas</p>
                         </div>
                         <div class="d-flex mt-4">
