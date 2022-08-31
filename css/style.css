@@ -322,3 +322,11 @@ h2 {
 .overflow-show {
   overflow: visible !important;
 }
+/* 
+.shadow-table {
+  box-shadow: 20px 0px 10px #000;
+} */
+
+.table-radius {
+  border-radius: 30px;
+}

@@ -8,8 +8,8 @@
                 <h1 class="h2">Precing Table</h1>
             </div>
 
-            <div class="table-responsive">
-                <table class="table table-striped table-hover text-nowrap table-valign-middle text-center">
+            <div class="table-responsive table-radius">
+                <table class=" table table-striped table-hover text-nowrap table-valign-middle text-center">
                     <thead class=" bg-primary-dark text-white">
                         <tr class="">
                             <th class="p-3">
